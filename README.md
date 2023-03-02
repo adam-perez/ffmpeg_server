@@ -54,7 +54,7 @@ Press CTRL+C to quit
 ## Making requests
 Open a browser to the location the server is running on, in this case [`http://127.0.0.1:5000`](http://127.0.0.1:5000), and append any of the following URLs.
 
-`{file}` can be replaced with any mp4 video in `./src/assets/`.
+`{file}` can be replaced with any mp4 video in `src/assets/`.
 
 ### Get I frames
 __URL:__ `/videos/{file}/group-of-pictures.json`
