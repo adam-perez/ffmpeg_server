@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+<!-- Load a base64 encoded video into an HTML5 video player -->
+{% block content %}
+    <video controls>
+        <source type="video/{{ format }}" src="data:video/{{ format }};base64,{{ data_uri }}">
+    </video>
+{% endblock %}

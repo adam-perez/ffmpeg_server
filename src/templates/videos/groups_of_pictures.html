@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+<!-- Load a list of base64 encoded videos into HTML5 video players -->
+{% block content %}
+    <ul>
+    {% for data_uri in data_uris %}
+        <li>
+            {{loop.index0}}
+            <video controls>
+                <source type="video/{{ format }}" src="data:video/{{ format }};base64,{{ data_uri }}">
+            </video>
+        </li>
+    {% endfor %}
+    </ul>
+{% endblock %}
