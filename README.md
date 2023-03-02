@@ -19,11 +19,11 @@ This project depends on [FFmpeg](https://ffmpeg.org/), [Python](https://www.pyth
 
 #### Windows
 
-To install FFmpeg, first [download Windows executables of ffmpeg and ffprobe](https://ffmpeg.org/download.html).
-Then unzip them to any location and add it to your PATH.
+To install FFmpeg, first [download pre-built versions of ffmpeg and ffprobe for Windows](https://ffmpeg.org/download.html).
+Then, unzip them and add their location to your PATH.
 
 To install Python and Flask, first [download the Python 3 Windows installer](https://www.python.org/downloads/).
-Run it, and choose to add Python to your PATH.
+Run it, and opt to add Python to your PATH.
 Then, open a terminal and run:
 ```powershell
 pip install flask
