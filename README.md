@@ -30,7 +30,7 @@ pip install flask
 ```
 
 #### Linux
-Open a terminal to `src/` and run:
+Open a terminal and run:
 ```bash
 sudo apt-get install ffmpeg
 sudo apt-get install python3
@@ -38,7 +38,7 @@ pip install flask
 ```
 
 ## Running the server
-Open a terminal and run:
+Open a terminal to `src/` and run:
 ```
 flask --app server run
 ```
